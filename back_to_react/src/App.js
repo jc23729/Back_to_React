@@ -8,9 +8,10 @@ function App() {
 
   return (
     <div className="App">
-  {a}
+  
+<button onClick={a}>This is a basic button</button>
     </div>
-  );
+  )
 }
 
 export default App;
