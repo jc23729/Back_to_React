@@ -5,11 +5,17 @@ import './App.css';
 function App() {
 
   let a = 12;
+  const [b, setb] = useState(0);
 
   return (
     <div className="App">
-  
-<button onClick={a}>This is a basic button</button>
+      {a}
+      <button onClick={() => {
+        a = a + 1
+        console.log(a)
+
+      }}>change value</button>
+      {b}
     </div>
   )
 }
