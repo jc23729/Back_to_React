@@ -9,13 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      {a}
-      <button onClick={() => {
-        a = a + 1
-        console.log(a)
-
-      }}>change value</button>
-      {b}
+     
     </div>
   )
 }
